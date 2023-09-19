@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Blog Title 
-email: author_email@email.com 
-description: "Change the description so that it describes your blog" 
-baseurl: "/stat386-blog-theme" # the name of the repository 
-url: "https://esnt.github.io" #  change this to "https://<your-github-username>.github.io"
+title: "Camilla's Data Science Blog" 
+email: "adia.sapphire36@gmail.com 
+description: "Camilla and the discovery of her data science journey" 
+baseurl: "/camilla47.github.io" # the name of the repository 
+url: "https://camilla47.github.io" #  change this to "https://<your-github-username>.github.io"
 image: https://source.unsplash.com/random
-author: Your name
-copyright: ABCD # Your initials or what you want the copyright to be.  Leave empty for no copyright
+author: Camilla M
+copyright: CAM # Your initials or what you want the copyright to be.  Leave empty for no copyright
 footer_description: 'The default image for the site header is a random image from 
         <a href="https://source.unsplash.com/random" target="_blank"> Unsplash</a>. 
         The default image for the blog post is from
@@ -35,11 +35,11 @@ footer_description: 'The default image for the site header is a random image fro
 
 
 # Social media users names.  Leave fields blank that you don't want displayed
-twitter_username: 386student
-github_username:  386student
-linkedin_username: 386student
+twitter_username: 
+github_username:  camilla47
+linkedin_username: Camilla McKinnon
 dribbble_username: 
-facebook_username: 386student
+facebook_username: 
 flickr_username:
 instagram_username: 
 pinterest_username:
