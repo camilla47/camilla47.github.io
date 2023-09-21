@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "Camilla's Data Science Blog" 
-email: "adia.sapphire36@gmail.com 
+email: "adia.sapphire36@gmail.com"
 description: "Camilla and the discovery of her data science journey" 
 baseurl: "/camilla47.github.io" # the name of the repository 
 url: "https://camilla47.github.io" #  change this to "https://<your-github-username>.github.io"
