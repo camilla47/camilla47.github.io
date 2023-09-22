@@ -21,7 +21,7 @@
 title: "Camilla's Data Science Blog" 
 email: "adia.sapphire36@gmail.com"
 description: "Camilla and the discovery of her data science journey" 
-baseurl: "/camilla47.github.io" # the name of the repository 
+baseurl: # "/camilla47.github.io" # the name of the repository 
 url: "https://camilla47.github.io" #  change this to "https://<your-github-username>.github.io"
 image: https://source.unsplash.com/random
 author: Camilla M
@@ -44,7 +44,7 @@ flickr_username:
 instagram_username: 
 pinterest_username:
 youtube_username: 
-googleplus_username: 386student
+googleplus_username:
 
 plugins:
   - jekyll-feed
