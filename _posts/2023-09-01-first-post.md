@@ -3,7 +3,7 @@ layout: post
 title:  "Hello World!"
 author: "Camilla McKinnon"
 description: "Camilla explores the world of creating her first blog post"
-image: "/assets/images/image5.jpg"
+image: "/assets/images/camera.jpg"
 --- 
 
 Hello World!
