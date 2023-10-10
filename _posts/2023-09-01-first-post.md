@@ -15,7 +15,9 @@ Image processing is the manipulation of digital images to extract useful informa
 
 Image processing covers a variety of something, enhancement of image quality, image compression, pattern recognition, remote sensing, document analysis, biology, science, astronomy, weather, computer science, research in any field, etc. 
 
-## Overview of Image Processing Packages in Python
+## What's out there?
+
+My mentor and I this summer hard coded a histogram equalization functino that scanned each image one pixel at a time. Needless to say, this took FOREVER. Then there was the fateful day we realized opencv had a built in package to do exactly what we wanted (and in like 2 seconds). Bottom line is: Know before you dig! ...wait "code"
 
 * OpenCV
 
