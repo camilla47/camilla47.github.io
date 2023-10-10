@@ -8,3 +8,16 @@ image: "/path/to/image"
 
 Hello World!
 #  or "url_to_image"
+
+## Why Image Processing?
+
+* hi here is some cool info on why we like image processing  
+
+* more info
+
+---
+---
+
+### OpenCV
+
+* hey
