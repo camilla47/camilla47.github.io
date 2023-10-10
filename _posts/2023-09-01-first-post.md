@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Hello World!"
+title:  "Exploring Image Processing in Python"
 author: "Camilla McKinnon"
-description: "Camilla explores the world of creating her first blog post"
+description: "A brief overview of image processing packages in python"
 image: "/assets/images/camera.jpg"
 --- 
 
