@@ -1,52 +1,63 @@
 ---
 layout: post
-title:  "Exploring Image Processing in Python"
+title:  "Intro to Image Processing in Python"
 author: "Camilla McKinnon"
-description: "A brief overview of image processing packages in python"
+description: "A brief overview of prominent python image processing packages"
 image: "/assets/images/camera.jpg"
 --- 
 
 ## Why Image Processing?
 
-Image processing is the manipulation of digital images to extract useful information or to enhance visual quality. I was first exposed to image processing this summer at my internship. We were analyzing the composition of nuclear fuel plates (fancy pieces of metal). The raw radiography scan images were nearly solid gray. We wanted to analyze the differences in color (because that correlated to density). Blalla, used histogram qualization to enhance hte color contrast. 
+Image processing is the manipulation of digital images to extract useful information or to enhance visual quality. Image processing can assist with anything from basic photo manipuilation to complex image analysis for research. 
 
-Image processing covers a variety of something, enhancement of image quality, image compression, pattern recognition, remote sensing, document analysis, biology, science, astronomy, weather, computer science, research in any field, etc. 
+I was first exposed to image processing this summer at my internship. We were analyzing radiography scans of metal fuel plates. We wanted to analyze minute differences in density, but the color difference wasnt' showing up in the scans. We used an image processing technique called histogram equalization to enhance the color contrast. This turned the original solid gray images to a range from black and white, and we were able to continue our analysis. 
+
 
 ## What's out there?
 
-My mentor and I this summer hard coded a histogram equalization functino that scanned each image one pixel at a time. Needless to say, this took FOREVER. Then there was the fateful day we realized opencv had a built in package to do exactly what we wanted (and in like 2 seconds). Bottom line is: Know before you dig! ...oh wait... know before you "code"!
+This summer, my mentor and I originally hard-coded our histogram equalization function. It scanned each image one pixel at a time, several times over...needless to say, the function took *forever* to run. Then there was the fateful day I discovered python had an existing library that could do exactly what we wanted. The improved code went down from 100 lines to less than 5, and run time improved greatly. Moral of the story: do your research first before jumping into a project!
 
-* OpenCV
+* What kinds of image processing techniques already exist?
+
+Python has several libraries with numerous packages for your image processing needs. With these you can do a variety of thihngs to your images, including:
+
+- Resizing and cropping
+- Rotation, flipping, transposing
+- Convert files to different formats
+- Contour detection (identify boundaries of objects)
+- Edge detection
+- Feature detection and matching
+- Image filtering (techniques to blur, smooth, or sharpen images)
+- Image segmentation (divides image into distinct regions or objects
+- Color conversion (change between color spaces, such as RGB, BGR, grayscale, etc.)
+- Erosion and dilation (used for noise removal, object extraction)
+- Thresholding (convert to binary images, partition image to threshold and background)
+
+---
+---
+
+## What are the best libraries?
+
+The most popular image processing libraries include OpenCV, PIL, and Scikit-image.
+
+#### OpenCV
+
 efficient and complex and computationally intensive tasks, large community/activre user community, so lots of oncline resources/documentation available
 
 high performance and optimization
 
-* PIL
+#### PIL - Python Imaging Library (also has a popular fork called pillow)
 
 is straight forward and user friendly, simple, ideal 4 beginners and si mple tasks
 
 more intuitive interface for basic image operations like resizing, cropping, and filtering
 
 
-* Scikit-image (skimage)
+#### Scikit-image (Also called skimage)
 
 ---
 ---
 
-### OpenCV
-
----
----
-
-### PIL
-
----
----
-
-### Scikit-image
-
----
----
 ## Conclusion
 
 There are powerful packages in python you can use to do cool stuff woo!
