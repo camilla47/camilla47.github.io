@@ -46,14 +46,13 @@ PIL (Python Imaging Library), is part of the Pillow library, and is a great imag
 
 Here is an example of how to read in an image with PIL:
 ```
-pip install Pillow # instal Pillow if you don't already have it
-
+pip install Pillow   # install Pillow if you don't already have it
 from PIL import Image
 
-# Open an image file
+# Open image file
 image = Image.open("path_to_your_image.jpg")
 
-# Display some information about the image
+# Display information about the image
 print("Image format: ", image.format)
 print("Image mode: ", image.mode)
 print("Image size: ", image.size)
@@ -64,11 +63,25 @@ image.show()
 
 ### OpenCV
 
-efficient and complex and computationally intensive tasks, large community/activre user community, so lots of oncline resources/documentation available
+OpenCV (Open Source Computer Vision Library) is a popular and versatile library. It has a wide range of packages for tasks related to computer vision, image processing, and machine learning. It also has an active user community, so there are lots of online resources and documentation available.  OpenCV is the best at efficiently running copmlex and computationally intensive tasks, and is known for it's high performance. That being said, OpenCV has a steeper learning curve than PIL, and might be overkill for simple tasks like resizing and cropping photos.  
 
-high performance and optimization
+Here is an example of how to do histogram equalization with OpenCV:
+```
+import cv2
+import numpy as np
 
+# Load image
+image = cv2.imread("path_to_your_image.jpg", 0)  # 0 loads the image in grayscale
 
+# Apply histogram equalization
+equalized_image = cv2.equalizeHist(image)
+
+# Display the original and equalized images
+cv2.imshow('Original Image', image)
+cv2.imshow('Equalized Image', equalized_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
 
 ### Scikit-image (Also called skimage)
 
