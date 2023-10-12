@@ -6,9 +6,6 @@ description: "A brief overview of image processing packages in python"
 image: "/assets/images/camera.jpg"
 --- 
 
-Hello World!
-#  or "url_to_image"
-
 ## Why Image Processing?
 
 Image processing is the manipulation of digital images to extract useful information or to enhance visual quality. I was first exposed to image processing this summer at my internship. We were analyzing the composition of nuclear fuel plates (fancy pieces of metal). The raw radiography scan images were nearly solid gray. We wanted to analyze the differences in color (because that correlated to density). Blalla, used histogram qualization to enhance hte color contrast. 
@@ -40,5 +37,8 @@ My mentor and I this summer hard coded a histogram equalization functino that sc
 
 ### Scikit-image
 
+---
+---
+## Conclusion
 
-* hey
+There are powerful packages in python you can use to do cool stuff woo!
