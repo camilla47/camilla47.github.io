@@ -40,20 +40,20 @@ Python has several libraries with numerous packages for your image processing ne
 
 The most popular image processing libraries include OpenCV, PIL, and Scikit-image.
 
-#### OpenCV
+### OpenCV
 
 efficient and complex and computationally intensive tasks, large community/activre user community, so lots of oncline resources/documentation available
 
 high performance and optimization
 
-#### PIL - Python Imaging Library (also has a popular fork called pillow)
+### PIL - Python Imaging Library (also has a popular fork called pillow)
 
 is straight forward and user friendly, simple, ideal 4 beginners and si mple tasks
 
 more intuitive interface for basic image operations like resizing, cropping, and filtering
 
 
-#### Scikit-image (Also called skimage)
+### Scikit-image (Also called skimage)
 
 ---
 ---
