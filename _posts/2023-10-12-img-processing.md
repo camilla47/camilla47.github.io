@@ -17,21 +17,21 @@ I was first exposed to image processing this summer at my internship. We were an
 
 This summer, my mentor and I originally hard-coded our histogram equalization function. It scanned each image one pixel at a time, several times over...needless to say, the function took *forever* to run. Then there was the fateful day I discovered python had an existing library that could do exactly what we wanted. The improved code went down from 100 lines to less than 5, and run time improved greatly. Moral of the story: do your research first before jumping into a project!
 
-* What kinds of image processing techniques already exist?
+#### What kinds of image processing techniques already exist?
 
 Python has several libraries with numerous packages for your image processing needs. With these you can do a variety of thihngs to your images, including:
 
-- Resizing and cropping
-- Rotation, flipping, transposing
-- Convert files to different formats
-- Contour detection (identify boundaries of objects)
-- Edge detection
-- Feature detection and matching
-- Image filtering (techniques to blur, smooth, or sharpen images)
-- Image segmentation (divides image into distinct regions or objects
-- Color conversion (change between color spaces, such as RGB, BGR, grayscale, etc.)
-- Erosion and dilation (used for noise removal, object extraction)
-- Thresholding (convert to binary images, partition image to threshold and background)
+* Resizing and cropping
+* Rotation, flipping, transposing
+* Convert files to different formats
+* Contour detection (identify boundaries of objects)
+* Edge detection
+* Feature detection and matching
+* Image filtering (techniques to blur, smooth, or sharpen images)
+* Image segmentation (divides image into distinct regions or objects
+* Color conversion (change between color spaces, such as RGB, BGR, grayscale, etc.)
+* Erosion and dilation (used for noise removal, object extraction)
+* Thresholding (convert to binary images, partition image to threshold and background)
 
 ---
 ---
