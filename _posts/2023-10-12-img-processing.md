@@ -83,7 +83,39 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-### Scikit-image (Also called skimage)
+### Scikit-image
+
+Scikit-image, also called skimage, is part of the scikit learn ecosystem in python. Skimage is built on top of NumPy, and works well in combination with other scientific libraries like Matplotlib and SciPy. It was designed specifically for scientific image processing tasks, and is a good choice for researchers and data scientists. It is efficient for many tasks, but in real time or performance-critical applications, it's performance may not match OpenCV.
+
+Here is an example of using skimage for countour detection in an image:
+
+```
+import numpy as np
+import matplotlib.pyplot as plt
+from skimage import io, color, measure
+from skimage.draw import polygon_perimeter
+
+# Load an image
+image = io.imread("your_image.jpg")
+
+# Convert the image to grayscale
+gray_image = color.rgb2gray(image)
+
+# Find contours in the grayscale image
+contours = measure.find_contours(gray_image, 0.8)  # You can adjust the threshold as needed
+
+# Display the original image
+plt.figure(figsize=(6, 6))
+plt.imshow(image)
+
+# Plot the contours on top of the original image
+for contour in contours:
+    plt.plot(contour[:, 1], contour[:, 0], linewidth=2)
+
+# Show the plot
+plt.axis('off')
+plt.show()
+```
 
 ---
 ---
