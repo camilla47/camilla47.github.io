@@ -23,3 +23,31 @@ high performance and optimization
 
 * PIL
 
+is straight forward and user friendly, simple, ideal 4 beginners and si mple tasks
+
+more intuitive interface for basic image operations like resizing, cropping, and filtering
+
+
+* Scikit-image (skimage)
+
+---
+---
+
+### OpenCV
+
+---
+---
+
+### PIL
+
+---
+---
+
+### Scikit-image
+
+---
+---
+## Conclusion
+
+There are powerful packages in python you can use to do cool stuff woo!
+
