@@ -42,7 +42,25 @@ The most popular image processing libraries include OpenCV, PIL, and Scikit-imag
 
 ### PIL
 
-PIL, which stands for Python Imaging Library, is a great image processing library for beginners. It is simple and straightforward. It has an intuitive interface for basic image operations such as resizing, cropping, and filtering images. 
+PIL (Python Imaging Library), is part of the Pillow library, and is a great image processing library for beginners. It is simple and straightforward. It has an intuitive interface for basic image operations such as resizing, cropping, and filtering images. 
+
+Here is an example of how to read in an image with PIL:
+```
+pip install Pillow # instal Pillow if you don't already have it
+
+from PIL import Image
+
+# Open an image file
+image = Image.open("path_to_your_image.jpg")
+
+# Display some information about the image
+print("Image format: ", image.format)
+print("Image mode: ", image.mode)
+print("Image size: ", image.size)
+
+# Display the image
+image.show()
+```
 
 ### OpenCV
 
