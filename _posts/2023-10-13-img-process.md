@@ -14,11 +14,19 @@ Image processing covers a variety of something, enhancement of image quality, im
 
 ## What's out there?
 
-My mentor and I this summer hard coded a histogram equalization functino that scanned each image one pixel at a time. Needless to say, this took FOREVER. Then there was the fateful day we realized opencv had a built in package to do exactly what we wanted (and in like 2 seconds). Bottom line is: Know before you dig! ...wait "code"
+My mentor and I this summer hard coded a histogram equalization functino that scanned each image one pixel at a time. Needless to say, this took FOREVER. Then there was the fateful day we realized opencv had a built in package to do exactly what we wanted (and in like 2 seconds). Bottom line is: Know before you dig! ...oh wait... know before you "code"!
 
 * OpenCV
+efficient and complex and computationally intensive tasks, large community/activre user community, so lots of oncline resources/documentation available
+
+high performance and optimization
 
 * PIL
+
+is straight forward and user friendly, simple, ideal 4 beginners and si mple tasks
+
+more intuitive interface for basic image operations like resizing, cropping, and filtering
+
 
 * Scikit-image (skimage)
 
