@@ -122,5 +122,5 @@ plt.show()
 
 ## Conclusion
 
-There are powerful packages in python you can use to do cool stuff woo!
+There are powerful packages in python you can use to augment your research. Whether you want a simple, beginner library, or if you're ready to take on more complex challenges, python has great options for you. And don't forget there is lots of online documentation you can reference for each of these libraries as you learn!
 
