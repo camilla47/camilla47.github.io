@@ -10,12 +10,12 @@ image: "/assets/images/film_roll.jpg"
 
 Image processing is the manipulation of digital images to extract useful information or to enhance visual quality. Image processing can assist with anything from basic photo manipuilation to complex image analysis for research. 
 
-I was first exposed to image processing this summer at my internship. We were analyzing radiography scans of metal fuel plates. We wanted to analyze minute differences in density, but the color difference wasnt' showing up in the scans. We used an image processing technique called histogram equalization to enhance the color contrast. This turned the original solid gray images to a range from black and white, and we were able to continue our analysis. 
+I was first exposed to image processing this summer at my internship. We were analyzing radiography scans of metal fuel plates. We wanted to analyze minute differences in density, but the color difference wasn't showing up in the scans. We used an image processing technique called histogram equalization to enhance the color contrast. This turned the original solid gray images to a range from black and white, and we were able to continue our analysis. 
 
 
 ## What's out there?
 
-This summer, my mentor and I originally hard-coded our histogram equalization function. It scanned each image one pixel at a time, several times over...needless to say, the function took *forever* to run. Then there was the fateful day I discovered python had an existing library that could do exactly what we wanted. The improved code went down from 100 lines to less than 5, and run time improved greatly. Moral of the story: do your research first before jumping into a project!
+This summer, my mentor and I originally hard-coded our histogram equalization function. It scanned each image one pixel at a time, several times over...needless to say, the function took _forever_ to run. Then there was the fateful day I discovered python had an existing library that could do exactly what we wanted. The improved code went down from 100 lines to less than 5, and run time improved greatly. **Moral of the story:** do your research first before jumping into a project!
 
 #### What kinds of image processing techniques already exist?
 
@@ -45,6 +45,7 @@ The most popular image processing libraries include OpenCV, PIL, and Scikit-imag
 PIL (Python Imaging Library), is part of the Pillow library, and is a great image processing library for beginners. It is simple and straightforward. It has an intuitive interface for basic image operations such as resizing, cropping, and filtering images. 
 
 Here is an example of how to read in an image with PIL:
+
 ```
 pip install Pillow   # install Pillow if you don't already have it
 from PIL import Image
@@ -66,6 +67,7 @@ image.show()
 OpenCV (Open Source Computer Vision Library) is a popular and versatile library. It has a wide range of packages for tasks related to computer vision, image processing, and machine learning. It also has an active user community, so there are lots of online resources and documentation available.  OpenCV is the best at efficiently running copmlex and computationally intensive tasks, and is known for it's high performance. That being said, OpenCV has a steeper learning curve than PIL, and might be overkill for simple tasks like resizing and cropping photos.  
 
 Here is an example of how to do histogram equalization with OpenCV:
+
 ```
 import cv2
 import numpy as np
@@ -85,9 +87,9 @@ cv2.destroyAllWindows()
 
 ### Scikit-image
 
-Scikit-image, also called skimage, is part of the scikit learn ecosystem in python. Skimage is built on top of NumPy, and works well in combination with other scientific libraries like Matplotlib and SciPy. It was designed specifically for scientific image processing tasks, and is a good choice for researchers and data scientists. It is efficient for many tasks, but in real time or performance-critical applications, it's performance may not match OpenCV.
+Scikit-image, also called skimage, is part of the scikit learn ecosystem in python. Skimage is built on top of NumPy, and works well in combination with other scientific libraries like Matplotlib and SciPy. It was designed specifically for scientific image processing tasks, and is a good choice for researchers and data scientists. It is efficient for many tasks, but in performance-critical applications, it's performance may not match OpenCV.
 
-Here is an example of using skimage for countour detection in an image:
+Here is an example of using skimage for countour detection and annotation in an image:
 
 ```
 import numpy as np
@@ -96,7 +98,7 @@ from skimage import io, color, measure
 from skimage.draw import polygon_perimeter
 
 # Load an image
-image = io.imread("your_image.jpg")
+image = io.imread("path_to_your_image.jpg")
 
 # Convert the image to grayscale
 gray_image = color.rgb2gray(image)
