@@ -19,7 +19,7 @@ This summer, my mentor and I originally hard-coded our histogram equalization fu
 
 #### What kinds of image processing techniques already exist?
 
-Python has several libraries with numerous packages for your image processing needs. With these you can do a variety of thihngs to your images, including:
+Python has several libraries with numerous packages for your image processing needs. With these you can do a variety of things to your images, including:
 
 * Resizing and cropping
 * Rotation, flipping, transposing
