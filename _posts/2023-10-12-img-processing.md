@@ -3,7 +3,7 @@ layout: post
 title:  "Intro to Image Processing in Python"
 author: "Camilla McKinnon"
 description: "A brief overview of popular python image processing libraries"
-image: "/assets/images/film_roll.jpg"
+image: "/assets/images/camera.jpg"
 --- 
 
 ## Why Image Processing?
@@ -84,6 +84,7 @@ cv2.imshow('Equalized Image', equalized_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/ex_HistEq.png)
 
 ### Scikit-image
 
