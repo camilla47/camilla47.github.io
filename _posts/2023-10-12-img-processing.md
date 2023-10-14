@@ -69,7 +69,7 @@ OpenCV (Open Source Computer Vision Library) is a popular and versatile library.
 Here is an example of how to do histogram equalization with OpenCV:
 
 ```
-import cv2
+import cv2 # (if not installed: "pip install opencv-python")
 import numpy as np
 
 # Load image
