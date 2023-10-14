@@ -84,6 +84,7 @@ cv2.imshow('Equalized Image', equalized_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+This is an example of histogram equalization performed on a gray landscape to increase the contrast:
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/ex_HistEq.png)
 
 ### Scikit-image
