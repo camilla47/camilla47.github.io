@@ -93,6 +93,9 @@ episodes.append(ep_length)
 country = info.split(' ')[0] 
 countries.append(country)
 ```
+The last thing I did was change how network and genre were stored. They were originally scraped as strings (for example "Genres: Romance, Fantasy, Family"). I searched all the genres strings to get a list of the unique genres. Then I created a column in my dataframe for each genre, and included a 1 if the genre was present, 0 if not. After that I chose dropped networks and genres that didn't have at least 15 occurences. You can see this code at the link below.
+
+---
 
 Once the data was cleaned, I stored it as a csv file to make it easier for future data analysis. 
 
