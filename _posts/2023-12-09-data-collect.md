@@ -75,9 +75,9 @@ except:
 ```
 
 ## Cleaning the Data
-After I had merged the data from each part above, I moved on to cleaning it. This involved converting the scores and watchers to integers (instead of numbers stored as strings), and various other string manipulation to extract the words that I wanted. 
+After I had merged the data from each part above, I moved on to cleaning it. This involved converting the scores and watchers to integers (instead of numbers stored as strings) and string manipulation to extract the words that I wanted. 
 
-Here's an example of extracting the number of episodes from a string:
+Here's an example of extracting the number of episodes from a string. This, for example, takes "Korean Drama, 2023, 18 episodes" and converts it to a string with "Korean", and a integers "2023" and "18", and appends it to my dataframe.
 
 ```
 # extract the episode
