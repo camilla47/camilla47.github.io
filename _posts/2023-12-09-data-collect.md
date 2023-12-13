@@ -75,18 +75,23 @@ except:
 ```
 
 ## Cleaning the Data
-After I had merged the data from each part above, I moved on to cleaning it. This involved converting the scores and watchers to integers (instead of numbers stored as strings) and string manipulation to extract the words that I wanted. 
+After I had merged the data from each part above, I moved on to cleaning it. I had to make sure my numbers were stored as integers or floats, not strings. I also did some string manipulation to extract the information that I wanted. 
 
-Here's an example of extracting the number of episodes from a string. This, for example, takes "Korean Drama, 2023, 18 episodes" and converts it to a string with "Korean" and integers "2023" and "18", then appends it to my dataframe.
+Here's an example of extracting the country, year, and episodes. When I first scraped this element, it came out as a string looking like "Korean Drama 2023, 18 episodes". I separated by spaces to extract the country, then by commas to get the year and episodes.
 
 ```
+# extract the year
+year = info.split(',')[0][-4:]
+year = int(year)
+years.append(year)
 # extract the episode
 episode = info.split(',')[1]
-# keep only the numbers
 numbers = re.findall(r'\d+', episode)
-# convert to an integer
 ep_length= int(numbers[0])
 episodes.append(ep_length)
+# extract the country
+country = info.split(' ')[0] 
+countries.append(country)
 ```
 
 Once the data was cleaned, I stored it as a csv file to make it easier for future data analysis. 
