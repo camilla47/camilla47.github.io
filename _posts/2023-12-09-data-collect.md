@@ -24,7 +24,7 @@ Some of the questions I want to consider as I dive into my exploratory data anal
 
 I scraped my data from <a href="https://mydramalist.com/" target="_blank">MyDramaList.com</a> Specifically, I was looking at the list of shows by popularity, found <a href="https://mydramalist.com/shows/top" target="_blank">here</a>.
 
-#### Ethical Considerations 
+#### **Ethical Considerations** 
 This data is published online and available to the public, so there were no ethical concerns with scraping the data.
 
 ## Scraping the Data
