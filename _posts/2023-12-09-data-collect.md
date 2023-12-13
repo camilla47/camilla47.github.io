@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Crash Landing on Data [You]"
+title:  "Crash Landing on Data"
 author: "Camilla McKinnon"
 description: "Webscraping with Selenium and Beautiful Soup"
 image: "/assets/images/data_collect_photo.jpg"
