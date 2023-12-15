@@ -99,7 +99,7 @@ The last thing I did was change how network and genre were stored. They were ori
 
 Once the data was cleaned, I stored it as a csv file to make it easier for future data analysis. 
 
-Check out my code for collecting and cleaning the data <a href="https://github.com/camilla47/termProject/tree/main/code" target="_blank">here</a>.
+Check out my code for collecting and cleaning the data <a href="https://github.com/camilla47/termProject" target="_blank">here</a>.
 
 ## Conclusion
 I learned a lot about the Beautiful Soup and Selenium packages while preparing this dataset. Things that are simple for a human to do, like clicking a button, are more complicated when trying to do it in your code! I am excited to start analyzing these dramas and discover patterns for what makes a drama the best. 
