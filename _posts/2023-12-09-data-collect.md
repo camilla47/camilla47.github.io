@@ -10,7 +10,7 @@ image: "/assets/images/data_collect_photo.jpg"
 
 I was pulled into the world of Korean dramas, or “K-dramas,” my freshman year of college. Since then, K-dramas have quickly become my number one choice whenever I want to relax and watch a show. The title of this post references a popular drama and one of my personal favorites, called "Crash Landing On You".
 
-I discoverd My Drama List, a community-driven platform with information regarding all things dramas. You can find all the information you ever wanted on your favorite Asian dramas. You can get the latest scoop on upcoming shows and movies, see what your favorite actors are doing, and peruse various lists of dramas. I was interested in the page that ranked the most popular dramas. With limited time to sit down and watch a show, I want the data on which dramas are the best!
+I discovered My Drama List, a community-driven platform with information regarding all things dramas. You can find all the information you ever wanted on your favorite Asian dramas. You can get the latest scoop on upcoming shows and movies, see what your favorite actors are doing, and peruse various lists of dramas. I was interested in the page that ranked the most popular dramas. With limited time to sit down and watch a show, I want the data on which dramas are the best!
 
 Some of the questions I want to consider as I dive into my exploratory data analysis are
 * Are some genres consistently rated higher than others?
